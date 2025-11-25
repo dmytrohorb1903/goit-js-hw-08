@@ -87,7 +87,6 @@ const markup = images
 gallery.innerHTML = markup;
 
 gallery.addEventListener('click', onGalleryClick);
-
 function onGalleryClick(event) {
   event.preventDefault();
 
